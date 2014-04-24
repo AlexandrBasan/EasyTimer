@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Easy Timer</string>
+   <string name="timer">Timer</string>
+
+   <string name="number_of_participants">Number of parts:</string>
+   <string name="length_of_meeting">Time:</string>
+   <string name="team">Team</string>
+   <string name="start">Start</string>
+
+   <string name="five_min">5 min</string>
+   <string name="ten_min">10 min</string>
+   <string name="fifteen_min">15 min</string>
+   <string name="twenty_min">20 min</string>
+
+   <string name="valid_num_participants_warning">Number of participants must be between 1 and 20.</string>
+   <string name="valid_num_participants_warning_unlimited">Number of participants must be greater than 1.</string>
+   <string name="ok">OK</string>
+   <string name="add">Add</string>
+   <string name="revert">Revert</string>
+   <string name="done">Done</string>
+   <string name="delete">Delete</string>
+   <string name="delete_meeting">Delete Meeting</string>
+   <string name="delete_team">Delete Team</string>
+
+   <string name="participant">Part:</string>
+   <string name="individual_status_complete">Individual status complete</string>
+   <string name="total_time_remaining">Total time remaining:</string>
+   <string name="next">Next</string>
+   <string name="finished">Finished</string>
+
+   <string name="settings_label">Settings</string>
+   <string name="settings_title">Easy Timer Settings</string>
+   <string name="play_sounds">Play sounds</string>
+   <string name="play_sounds_summary">Play sounds when time is running out</string>
+   <string name="warning_time">Warning time</string>
+   <string name="warning_time_summary">When to notify that time is running out (in seconds / per participant)</string>
+   <string name="unlimited_participants">Unlimited parts</string>
+   <string name="unlimited_participants_summary">Allow a breakdown of the large number of parts</string>
+   <string name="variable_meeting_length">Set the timer manually</string>
+   <string name="variable_meeting_length_summary">Allow set the timer manually (in minutes) </string>
+
+   <string name="team_label">Teams</string>
+   <string name="add_team">Add Team</string>
+   <string name="no_teams">No teams configured</string>
+
+   <string name="about_label">About</string>
+   <string name="about_title">About</string>
+   <string name="about_text"> </string>
+   <string name="about_version"> </string>
+   <string name="about_copyright"> </string>
+   <string name="about_author_email"> </string>
+   <string name="about_project_url">http://cbsb.com.ua/?page_id=517</string>
+
+   <string name="help_label">Help</string>
+   <string name="help_title">Help</string>
+   <string name="help_text">\
+<b>General</b>
+\n\n\
+Simply specify the meeting length, and press <b>Start</b> to get
+started. On the timer screen, press <b>Next</b>
+to restart the timer or <b>Finish</b> to stop the timer and end the meeting.
+\n\n\</string>
+
+   <string name="stats">Stats</string>
+   <string name="meetings">Meetings</string>
+   <string name="no_meetings">This team has no meetings</string>
+   <string name="no_meeting_stats">This team has no stats</string>
+
+   <string name="team_name">Team name</string>
+   <string name="number_of_meetings">Number of meetings</string>
+   <string name="avg_number_of_participants">Average number\nof participants</string>
+   <string name="avg_meeting_length">Average meeting\nlength</string>
+   <string name="avg_individual_status_length">Average individual\nstatus length</string>
+   <string name="avg_quickest_status">Average quickest\nindividual status</string>
+   <string name="avg_longest_status">Average longest\nindividual status</string>
+
+   <string name="meeting_stats">Meeting Stats</string>
+   <string name="meeting_details">Meeting details</string>
+   <string name="meeting_time">Meeting time</string>
+   <string name="meeting_length">Meeting length</string>
+   <string name="individual_status_length">Individual status length</string>
+   <string name="quickest_status">Quickest individual status</string>
+   <string name="longest_status">Longest individual status</string>
+   <string name="thirty_min">30 minutes</string>
+   <string name="forty_min">40 minutes</string>
+   <string name="fifty_min">50 minutes</string>
+   <string name="One_Hour">1 Hour</string>
+   <string name="Two_Hour">2 Hour</string>
+   <string name="current_time">Current time:</string>
+   
+<string name="admob_publisher_id">a1519def05e735b</string>
+</resources>

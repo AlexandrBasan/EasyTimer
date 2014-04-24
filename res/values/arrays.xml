@@ -1,0 +1,13 @@
+<resources>
+   <string-array name="meeting_lengths">
+      <item>@string/five_min</item>
+      <item>@string/ten_min</item>
+      <item>@string/fifteen_min</item>
+      <item>@string/twenty_min</item>
+      <item>@string/thirty_min</item>
+      <item>@string/forty_min</item>
+      <item>@string/fifty_min</item>
+      <item>@string/One_Hour</item>
+      <item>@string/Two_Hour</item>
+   </string-array>
+</resources>

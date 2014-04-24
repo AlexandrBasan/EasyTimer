@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+   android:layout_height="fill_parent" android:layout_width="fill_parent"
+   android:orientation="horizontal">
+
+   <LinearLayout android:orientation="vertical"
+      android:layout_height="wrap_content" android:layout_width="fill_parent"
+      android:layout_gravity="center">
+
+      <TextView
+          android:id="@+id/participant_number"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/participant"
+          android:textSize="15sp" >
+</TextView>
+
+      <TextView
+          android:id="@+id/individual_time_remaining"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:text="00:00"
+          android:textColor="@color/green"
+          android:textSize="50sp"
+          android:textStyle="bold" >
+
+</TextView>
+
+      <Button android:text="@string/next" android:id="@+id/next_button"
+         android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_gravity="center" android:layout_marginTop="15dp"
+         android:width="80dp"></Button>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="30dp"
+          android:text="@string/total_time_remaining"
+          android:textSize="25sp" >
+
+</TextView>
+
+      <TextView
+          android:id="@+id/total_time_remaining"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:text="00:00"
+          android:textColor="@color/green"
+          android:textSize="70sp"
+          android:textStyle="bold" >
+
+</TextView>
+
+      <Button android:text="@string/finished" android:id="@+id/finished_button"
+         android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_gravity="center" android:layout_marginTop="15dp"
+         android:width="80dp"></Button>
+
+   </LinearLayout>
+
+   <DigitalClock
+       android:id="@+id/digitalClock1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="DigitalClock" />
+
+</LinearLayout>

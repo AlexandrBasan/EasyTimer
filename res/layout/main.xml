@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+   android:layout_height="fill_parent" android:layout_width="fill_parent"
+   android:orientation="horizontal">
+
+   <LinearLayout android:orientation="vertical"
+      android:layout_height="wrap_content" android:layout_width="fill_parent"
+      android:layout_gravity="center">
+
+      <TextView android:text="@string/number_of_participants"
+         android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_gravity="center" android:textSize="17sp" />
+
+      <EditText android:id="@+id/num_participants" android:layout_width="60dp"
+         android:layout_height="wrap_content" android:layout_gravity="center"
+         android:digits="0123456789" android:gravity="center"
+         android:layout_marginTop="5dp" android:inputType="phone" android:lines="1"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:paddingTop="20dp"
+          android:text="@string/length_of_meeting"
+          android:textColor="@color/green"
+          android:textSize="25sp"
+          android:textStyle="bold" />
+
+      <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+         android:layout_marginTop="5dp" android:id="@+id/meeting_length_container"
+         android:layout_marginLeft="100dp" android:layout_marginRight="100dp"
+         android:gravity="center" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:paddingTop="20dp"
+          android:text="@string/team"
+          android:textSize="17sp"
+          android:visibility="gone" />
+
+      <Spinner
+          android:id="@+id/team_names"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="70dp"
+          android:layout_marginRight="70dp"
+          android:layout_marginTop="5dp"
+          android:prompt="@string/team"
+          android:visibility="gone" />
+
+      <Button
+          android:id="@+id/start_button"
+          android:layout_width="173dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="@string/start"
+          android:width="80dp" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/current_time" />
+
+      <AnalogClock
+          android:id="@+id/analogClock1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center" />
+
+   </LinearLayout>
+</LinearLayout>
